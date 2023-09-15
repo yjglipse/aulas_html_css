@@ -3,6 +3,8 @@
 <!--placeholder- O nome que aparece antes do usuario digitar-->
 <!--required torna o formulario possivel de enviar apenas quando preencher o input em que é colocado-->
 <!-- name pode selecionar varios lugares para se escrever ao mesmo tempo -->
+<!-- disabled faz com que o usuario não possa clicar naquela opcão -->
+<!-- disable selected mostra a opçao porem depois de tirada não pode mais ser acessada -->
 
 
 
@@ -47,6 +49,17 @@
                 <label for="Flamengo">Flamengo</label>
 
             </div>
+        </div>
+
+        <!-- select: grupo de opcoes que so aparecem quando o usuario clica -->
+        <div>
+            <label for="turma">Escolha sua turma: </label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01tA">EMETI01TA</option>
+                <option value="01tB">EMETI01TB</option>
+                <option value="01tC">EMETI01TC</option>
+            </select>
         </div>
 
         <button>enviar</button>
