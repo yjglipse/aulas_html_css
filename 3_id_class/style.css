@@ -1,0 +1,22 @@
+#titulo-h2{
+    color: aqua;
+}
+.fundo-amalero{
+    background-color: yellow;
+
+}
+
+.texto-vermei{
+    color: red;
+}
+
+h2{
+    color: blueviolet;
+}
+
+p{
+    color: steelblue;
+}
+
+ /* cascata - lÊ d cima para baixo */
+ /* hmtl leva em consideraçao a especificação do seletor(classe) */
